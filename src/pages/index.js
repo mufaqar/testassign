@@ -18,9 +18,7 @@ export default function Home() {
   const [skills, setSkills] = useState();
   const [value, setValue] = useState();
   const [selectedSkill, setSelectedList] = useState([]);
-
   const [isExistSkill, setIsExistSkill] = useState();
-
   const handleChange = (e) => {
     setValue(e.target.value);
     setSkills(
